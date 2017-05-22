@@ -3,7 +3,7 @@ An AWS (Lambda / SNS / S3) version of the Tongue Tied text messaging application
 
 
 
-=======
+
 Welcome to the AWS CodeStar sample web application
 ==================================================
 
