@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/funkfinger/ttaws/issues"
   },
-  "homepage": "https://github.com/funkfinger/ttaws#readme"
+  "homepage": "https://github.com/funkfinger/ttaws#readme",
+  "dependencies": {
+    "aws-sdk": "^2.55.0"
+  }
 }
