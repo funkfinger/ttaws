@@ -6,7 +6,13 @@ var path = require('path');
 var fs = require('fs');
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, 'public/index.html'));
+  // res.sendFile(path.join(__dirname, 'public/index.html'));
+  var contents = fs.readFileSync("public/index.html");
+  context.succeed({
+    statusCode: 200,
+    body: contents.toString(),
+    headers: {'Content-Type': 'text/html'}
+  });
 })
 
 module.exports = app;
